@@ -90,7 +90,7 @@ section{
     width: 100%;min-height:500px;
 }
 section div{
-     border-radius: 5px;height:380px;
+     border-radius: 5px;height:300px;
      position: relative; background-color: white;
 }
 section div:hover{
