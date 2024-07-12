@@ -95,7 +95,7 @@ section div{
 }
 section div:hover{
    
-    transform: scale(1.1);
+    transform: scale(1);
     box-shadow: 1px 1px 5px rgb(211, 209, 209),-1px -1px 5px rgb(170, 167, 167);
 }
 section div>img{
