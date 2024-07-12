@@ -257,7 +257,7 @@ border-radius: 10px;
     color: rgb(65, 62, 62);  
 }
 .h1{
-    font-size: 40px;
+    font-size: 40px;padding:10px;
     text-align: center;color: white;
     text-shadow: 1px 1px 5px gray,-1px -1px 5px gray;
 }
@@ -518,6 +518,8 @@ li{
     }
     .c1{
         padding: 0;
+    }
+    footer{
     }
 }
 /* header for mobile and tablet media query  */
