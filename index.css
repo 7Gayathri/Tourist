@@ -454,7 +454,7 @@ span p:nth-child(4){
 }
 /* footer div style  */
 footer{
-    display: grid;gap: 2%;padding: 2%;
+    display: grid;gap: 2%;padding: 2%;min-height: max-content;
     grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     background-color: rgb(6, 6, 44);
 }
