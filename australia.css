@@ -87,7 +87,7 @@ section{
     /* display: flex;gap: 5%; */
     display: grid;grid-template-columns: repeat(auto-fit ,minmax(250px,1fr));
     padding: 5%;gap: 3%;background-color: aliceblue;
-    width: 100%;min-height:max-content;
+    width: 100%;min-height:500px;
 }
 section div{
      border-radius: 5px;
@@ -99,7 +99,7 @@ section div:hover{
     box-shadow: 1px 1px 5px rgb(211, 209, 209),-1px -1px 5px rgb(170, 167, 167);
 }
 section div>img{
-    width: 100%;height:200px;border-radius: 5px 5px 0 0;
+    width: 100%;height:120px;border-radius: 5px 5px 0 0;
 }
 section h3{
     padding: 2% 0 3% 5%;
