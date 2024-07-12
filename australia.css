@@ -164,7 +164,7 @@ footer p,li{
         left:5%;
     }
     aside{
-        dispaly:block;
+        dispaly:none;
     }
 }
 /* header for laptop media query  */
