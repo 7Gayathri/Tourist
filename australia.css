@@ -90,7 +90,7 @@ section{
     width: 100%;min-height:500px;
 }
 section div{
-     border-radius: 5px;
+     border-radius: 5px;height:380px;
      position: relative; background-color: white;
 }
 section div:hover{
@@ -161,9 +161,11 @@ footer p,li{
         padding: 15px 30px;
         font-size: 18px;
     }
-    
+    .p{
+        font-size:15px;
+    }
     aside{
-        dispaly:none;
+        display:none;
     }
 }
 /* header for laptop media query  */
