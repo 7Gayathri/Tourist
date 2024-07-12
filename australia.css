@@ -4,7 +4,7 @@
 }
 .container{
     /* background-color: rgb(215, 250, 227); */
-    overflow
+    overflow: hidden;
 }
 /* header div style  */
 header{
@@ -32,7 +32,7 @@ nav h1{
 }
 .p{
     font-size: 20px;
-    padding-bottom:15px;
+    padding: 0 1% 3% 6%;
 }
 h2{
     font-size: 30px;padding: 2% 0 1% 4%;
@@ -85,12 +85,12 @@ h5{
 /* section div style  */
 section{
     /* display: flex;gap: 5%; */
-    display: grid;grid-template-columns: repeat(auto-fit ,minmax(250px,1fr));
-    padding: 5%;gap: 3%;background-color: aliceblue;
-    width: 100%;min-height:500px;
+    display: grid;grid-template-columns: repeat(auto-fit ,minmax(300px,1fr));
+    padding: 5%;background-color: aliceblue;gap: 10px;
+    width: 100%;
 }
 section div{
-     border-radius: 5px;height:300px;
+     width: 300px;height:380px;border-radius: 5px;
      position: relative; background-color: white;
 }
 section div:hover{
@@ -99,7 +99,7 @@ section div:hover{
     box-shadow: 1px 1px 5px rgb(211, 209, 209),-1px -1px 5px rgb(170, 167, 167);
 }
 section div>img{
-    width: 100%;height:120px;border-radius: 5px 5px 0 0;
+    width: 100%;height:200px;border-radius: 5px 5px 0 0;
 }
 section h3{
     padding: 2% 0 3% 5%;
@@ -124,11 +124,13 @@ section p{
 /* aside div  */
 aside{
     display: grid;grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
-    padding: 5%;gap: 5%;min-height:max-content;
+    padding: 5%;gap: 5%;min-height: max-content;
+
     /* background-color: aliceblue; */
 }
 aside div{
     text-align: center;padding: 2%;
+    display: grid;align-items: center;justify-content: center;
 }
 aside img{
     width: 100px;height: 100px;
@@ -162,10 +164,11 @@ footer p,li{
         font-size: 18px;
     }
     .p{
-        font-size:15px;
+        font-size: 15px;
     }
     aside{
-        display:none;
+        min-height:680px;padding-bottom: 3% ;
+       
     }
 }
 /* header for laptop media query  */
